@@ -1,3 +1,7 @@
 # prototype-pokegame
-pip install pygame
+import math
+import random
+import sys
+from dataclasses import dataclass, field
 
+import pygame
