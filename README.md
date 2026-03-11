@@ -15,6 +15,3 @@ CLOCK = pygame.time.Clock()
 
 
 
-
-
-
