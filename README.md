@@ -19,6 +19,8 @@ BIG_FONT = pygame.font.SysFont("arial", 32, bold=True)
 
 TILE = 32
 MAP_W = 25
+MAP_H = 18
+
 
 WHITE = (245, 245, 245)
 BLACK = (20, 20, 20)
