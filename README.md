@@ -20,3 +20,17 @@ BIG_FONT = pygame.font.SysFont("arial", 32, bold=True)
 TILE = 32
 MAP_W = 25
 
+WHITE = (245, 245, 245)
+BLACK = (20, 20, 20)
+GRAY = (90, 90, 90)
+LIGHT_GRAY = (170, 170, 170)
+GREEN = (80, 180, 90)
+DARK_GREEN = (40, 120, 60)
+BLUE = (80, 130, 220)
+DARK_BLUE = (50, 80, 180)
+RED = (210, 80, 80)
+DARK_RED = (160, 50, 50)
+YELLOW = (240, 210, 90)
+BROWN = (120, 85, 60)
+SAND = (216, 195, 140)
+PURPLE = (150, 95, 210)
