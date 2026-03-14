@@ -6,6 +6,13 @@ from dataclasses import dataclass, field
 
 import pygame
 
+
+# =========================================================
+# Monster Catching RPG (single-file, pygame)
+# Inspired by creature-collection games, but original/simple
+# =========================================================
+
+
 pygame.init()
 pygame.display.set_caption("Pocket Monsters Lite")
 
@@ -36,3 +43,5 @@ YELLOW = (240, 210, 90)
 BROWN = (120, 85, 60)
 SAND = (216, 195, 140)
 PURPLE = (150, 95, 210)
+
+
