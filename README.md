@@ -45,4 +45,9 @@ BROWN = (120, 85, 60)
 SAND = (216, 195, 140)
 PURPLE = (150, 95, 210)
 
+# ---------------------------
+# Game tuning
+# ---------------------------
+GRASS_ENCOUNTER_CHANCE = 0.10
+MAX_TEAM_SIZE = 6
 
