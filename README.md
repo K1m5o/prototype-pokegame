@@ -54,3 +54,46 @@ MAX_TEAM_SIZE = 6
 # ---------------------------
 # Monster definitions
 # ---------------------------
+
+SPECIES = [
+    {
+        "name": "Sproutle",
+        "color": (90, 210, 120),
+        "base_hp": 34,
+        "base_attack": 9,
+        "base_defense": 7,
+        "moves": ["Leaf Tap", "Tackle"],
+          },
+    {
+        "name": "Embercub",
+        "color": (240, 120, 70),
+        "base_hp": 30,
+        "base_attack": 11,
+        "base_defense": 6,
+        "moves": ["Spark Paw", "Tackle"],
+    },
+    {
+        "name": "Bubbloon",
+        "color": (80, 180, 240),
+        "base_hp": 36,
+        "base_attack": 8,
+        "base_defense": 8,
+        "moves": ["Bubble Pop", "Tackle"],
+    },
+    {
+        "name": "Pebblit",
+        "color": (140, 140, 150),
+        "base_hp": 40,
+        "base_attack": 8,
+        "base_defense": 10,
+        "moves": ["Rock Bonk", "Tackle"],
+    },
+    {
+        "name": "Zappip",
+        "color": (240, 225, 90),
+        "base_hp": 28,
+        "base_attack": 12,
+        "base_defense": 6,
+        "moves": ["Static Zip", "Tackle"],
+    },
+]
