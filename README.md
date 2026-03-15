@@ -97,3 +97,14 @@ SPECIES = [
         "moves": ["Static Zip", "Tackle"],
     },
 ]
+
+MOVE_DATA = {
+    "Tackle": {"power": 8, "accuracy": 0.95},
+    "Leaf Tap": {"power": 10, "accuracy": 0.95},
+    "Spark Paw": {"power": 11, "accuracy": 0.90},
+    "Bubble Pop": {"power": 10, "accuracy": 0.95},
+    "Rock Bonk": {"power": 12, "accuracy": 0.85},
+    "Static Zip": {"power": 13, "accuracy": 0.80},
+}
+
+
