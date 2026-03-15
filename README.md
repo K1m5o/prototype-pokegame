@@ -51,3 +51,6 @@ PURPLE = (150, 95, 210)
 GRASS_ENCOUNTER_CHANCE = 0.10
 MAX_TEAM_SIZE = 6
 
+# ---------------------------
+# Monster definitions
+# ---------------------------
