@@ -111,4 +111,15 @@ MOVE_DATA = {
 # Helper classes
 # ---------------------------
 
-
+@dataclass
+class Monster:
+    name: str
+    species_name: str
+    level: int
+    color: tuple
+    max_hp: int
+    hp: int
+    attack: int
+    defense: int
+    moves: list
+    exp: int = 0
