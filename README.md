@@ -130,3 +130,18 @@ class Monster:
      def heal_full(self):
         self.hp = self.max_hp
 
+     def gain_exp(self, amount):
+        self.exp += amount
+        leveled = False
+        while self.exp >= self.exp_to_next():
+            self.exp -= self.exp_to_next()
+            self.level += 1
+            self.max_hp += random.randint(2, 4)
+            self.attack += random.randint(1, 2)
+            self.defense += random.randint(1, 2)
+            self.hp = self.max_hp
+            leveled = True
+        return leveled
+
+
+        
