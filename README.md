@@ -126,3 +126,7 @@ class Monster:
 
      def is_fainted(self):
         return self.hp <= 0
+
+     def heal_full(self):
+        self.hp = self.max_hp
+
