@@ -123,3 +123,6 @@ class Monster:
     defense: int
     moves: list
     exp: int = 0
+
+     def is_fainted(self):
+        return self.hp <= 0
