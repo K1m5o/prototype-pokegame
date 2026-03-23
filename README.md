@@ -143,5 +143,7 @@ class Monster:
             leveled = True
         return leveled
 
+    def exp_to_next(self):
+        return 12 + self.level * 6
 
         
